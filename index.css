@@ -31,8 +31,8 @@ header {
 
 .finsweet {
     margin-right: 15rem;
-    width: 121.41px;
-    height: 27.43px;
+    width: 120px;
+    height: 27px;
 }
 
 nav ul {
@@ -40,13 +40,14 @@ nav ul {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav ul li {
     /* padding: 5px; */
     /* row-gap: 10rem; */
-    margin-right: 1.7rem;
+    margin-right: 1.5rem;
+    margin-left: .5em;
     list-style: none;
 }
 
@@ -54,6 +55,7 @@ nav ul li {
     width: 42px;
     border: 1px solid #939191;
     transform: rotate(90deg);
+    opacity: 26%;
 }
 
 .info-part {
@@ -68,11 +70,16 @@ nav ul li {
     line-height: 1.7rem;
 }
 
-.paragraphs p {
+.paragraphs .number {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
+}
+
+.paragraphs .number:hover {
+    cursor: pointer;
+    color: rgb(10, 176, 241);
 }
 
 .paragraphs > .first-child {
@@ -121,6 +128,11 @@ nav ul li {
     border-radius: 12px;
     background-color: #FF6433;
     color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #939191;
 }
 
 .header-img {
