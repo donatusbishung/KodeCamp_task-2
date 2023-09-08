@@ -4,29 +4,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
 }
 
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 header {
-    position: static;
+    
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     /* background-color: black;
     color: white; */
 }
 
-.navigation {
+.container-1 {
+    position: fixed;
+    right: 10%;
+    z-index: 50;
     width: 80%;
+    height: 10vh;
     margin: 0 auto;
-    padding-top: 15px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-
+    padding: 10px 0;
+    background-color: white;
 }
 
 .finsweet {
@@ -46,8 +52,6 @@ nav ul {
 }
 
 nav ul li {
-    /* padding: 5px; */
-    /* row-gap: 10rem; */
     margin-right: 1.5rem;
     margin-left: .5em;
     list-style: none;
@@ -67,12 +71,15 @@ nav ul li a:hover {
     width: 42px;
     border: 1px solid #939191;
     transform: rotate(90deg);
+    /* margin-right: -1em; */
     opacity: 26%;
 }
 
 .info-part {
     align-self: flex-end;
     display: flex;
+    row-gap: 10rem;
+    margin-right: -1.7em;
     gap: 1em;   
 }
 
@@ -104,20 +111,28 @@ nav ul li a:hover {
 
 /* Designing the hero page */
 
-.hero-page {
-    width: 80%;
-    height: 91vh;
-    margin: 50px auto;
+main {
+    width: 100%;
+    height: 100%;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-page {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .intro-ad {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.5em;
 }
+
 
 .intro-ad h1 {
     font-family: 'Manrope';
@@ -147,8 +162,11 @@ button:hover {
     background-color: #939191;
 }
 
+.intro-img {
+    width: 50%;
+}
+
 .header-img {
-    margin-right: -2.7rem;
     width: 605px;
     height: auto;
 }
@@ -179,4 +197,163 @@ button:hover {
     color: #939191;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* designing the secong container */
+
+#car-servicing {
+    height: 101vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #E2E6E9;
+}
+
+/* Global property */
+.container {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* background-color: goldenrod; */
+}
+/* End of Global property */
+
+.get-qoute {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* services content area */
+.services-left {
+    width: 50%;
+}
+
+.services-left h1 {
+    font-weight: 800;
+    font-size: 50px;
+    /* line-height: 76px; */
+    letter-spacing: -3%;
+    margin-bottom: 2rem;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 375px;
+}
+
+.the-control {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.the-control img {
+    width: 47px;
+    height: 47px;
+}
+
+.service-paragraphs .p-1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+
+.service-paragraphs .p-2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -3%;
+    opacity: 60%;
+}
+
+.service-paragraphs .p-3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: -1em;
+}
+
+.know-more {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.service-paragraphs img {
+    width: 52px;
+    height: 20px;
+    border: 2px #1E1B1B;
+}
+
+/* End of servces content area */
+
+.qoute-generator-right {
+    width: 50%;
+    align-items: flex-end;
+}
+
+.qoute-generator-right h2 {
+    font-weight: 600;
+    font-size: 48px;
+    /* line-height: 67.2px; */
+    letter-spacing: -3%;
+    margin-bottom: 1rem;
+}
+
+/* form section */
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.form-section form input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    padding: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.form-section button {
+    padding: 16px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FF6433;
+    color: white;
+    margin-top: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #939191;
+}
+
+/* end of form section and car-servicing */
+
+/* directions and offers */
+
+#direction-section {
+    height: 101vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
