@@ -222,8 +222,8 @@ button:hover {
 
 .get-qoute {
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* services content area */
@@ -357,3 +357,99 @@ button:hover {
     /* justify-content: center; */
     align-items: center;
 }
+
+.get-qoute-direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.dir-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+}
+
+.dir-section-left h2 {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 76px;
+}
+
+.dir-section-left p {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 60%;
+}
+
+.dir-section-left button {
+    align-self: flex-start;
+    padding: 16px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FF6433;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #939191;
+}
+
+.dir-section-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dir-section-right .the-control .service-paragraphs .p-1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.dir-section-right .the-control .service-paragraphs .p-2 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 31.5px;
+    letter-spacing: -3%;
+    width: 336px;
+    height: 96x;
+}
+
+.img-line {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 3em;
+}
+
+.img-line .line-dir {
+    width: 70px;
+    height: 0;
+    border: 2px dashed #FF6433;
+    transform: rotate(90deg);
+}
+.img-line .line-dir-1 {
+    width: 71px;
+    height: 0;
+    border: 2px;
+    transform: rotate(90deg);
+}
+
+
+/* end of directions and offers  */
