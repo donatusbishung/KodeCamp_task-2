@@ -453,3 +453,86 @@ button:hover {
 
 
 /* end of directions and offers  */
+
+/* what we offer section  */
+
+#what-we-offer {
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2E6E9;
+}
+
+.we-offer-section {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2em;
+}
+
+.main-head {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.main-head p {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -3%;
+}
+
+.main-head h2 {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -3%;
+}
+
+.flex-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.flex-six-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 220px;
+    background-color: #ffffff;
+    gap: 1rem;
+}
+
+.flex-section .click-to-change {
+    background-color: #FF6433;
+    color: #ffffff;
+}
+
+.know-about-us {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.know-about-us p {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 31.5px;
+}
