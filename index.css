@@ -41,6 +41,7 @@ header {
     font-weight: 800;
     margin-right: auto;
     color: #1E1B1B;
+    cursor: pointer;
 }
 
 nav ul {
@@ -120,14 +121,15 @@ main {
     align-items: center;
 }
 
-.hero-page {
+.get-qoute-1 {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .intro-ad {
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
@@ -138,8 +140,9 @@ main {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 62px;
+    font-size: 60px;
+    line-height: 84px;
+    letter-spacing: -3%;
 }
 
 /* Designing the button with hover effect */
@@ -163,12 +166,14 @@ button:hover {
 }
 
 .intro-img {
-    width: 50%;
+    width: 40%;
+    background-image: url(Images/Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 
-.header-img {
-    width: 605px;
-    height: auto;
+.intro-img > .service {
 }
 
 .office-hours {
@@ -205,7 +210,7 @@ button:hover {
     height: 101vh;
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     background-color: #E2E6E9;
 }
@@ -516,6 +521,12 @@ button:hover {
     height: 220px;
     background-color: #ffffff;
     gap: 1rem;
+}
+
+.flex-six-boxes:hover {
+    cursor: pointer;
+    background-color: #FF6433;
+    color: #ffffff;
 }
 
 .flex-section .click-to-change {
