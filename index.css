@@ -82,6 +82,12 @@ nav ul a:hover {
     margin-left: 1rem;   
 }
 
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 .paragraphs .number {
     font-family: 'Manrope';
     font-style: normal;
@@ -204,7 +210,7 @@ button:hover {
 /* designing the secong container */
 
 #car-servicing {
-    height: 101vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -244,7 +250,7 @@ button:hover {
 .services-content {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     width: 375px;
 }
 
