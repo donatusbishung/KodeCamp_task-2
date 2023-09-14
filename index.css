@@ -131,9 +131,9 @@ main {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 58px;
-    line-height: 84px;
-    letter-spacing: -3%;
+    font-size: 48px;
+    line-height: 70px;
+    /* letter-spacing: -3%; */
 }
 
 /* Designing the button with hover effect */
