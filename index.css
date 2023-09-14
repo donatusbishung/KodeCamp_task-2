@@ -170,7 +170,7 @@ button:hover {
 .intro-img .rating {
     position: absolute;
     bottom: -10%;
-    right: -1%;
+    right: .5%;
 }
 
 .office-hours {
@@ -459,7 +459,7 @@ button:hover {
 /* what we offer section  */
 
 #what-we-offer {
-    height: 120vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     justify-content: center;
