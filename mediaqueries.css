@@ -623,10 +623,10 @@
     .get-qoute-1 {
         width: 90%;
         /* height: auto; */
-        gap: 8rem;
+        gap: 3rem;
     }
 
-    .hero-page {
+    /* .hero-page {
         width: 50%;
         gap: 1rem;
     }
@@ -641,7 +641,7 @@
     }
     .first-image {
         width: 300px;
-        height: auto;
+        height: auto; */
     }
 
     .service {
